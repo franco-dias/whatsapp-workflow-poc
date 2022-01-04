@@ -1,0 +1,1532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1632408904144" clover="3.2.0">
+  <project timestamp="1632408904144" name="All files">
+    <metrics statements="1223" coveredstatements="1185" conditionals="286" coveredconditionals="242" methods="156" coveredmethods="153" elements="1665" coveredelements="1580" complexity="0" loc="1223" ncloc="1223" packages="15" files="86" classes="86"/>
+    <package name="src">
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="routes.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="13" count="46" type="stmt"/>
+        <line num="20" count="46" type="stmt"/>
+        <line num="50" count="46" type="stmt"/>
+        <line num="55" count="46" type="stmt"/>
+        <line num="72" count="46" type="stmt"/>
+        <line num="79" count="46" type="stmt"/>
+        <line num="81" count="46" type="stmt"/>
+        <line num="89" count="46" type="stmt"/>
+        <line num="97" count="46" type="stmt"/>
+        <line num="109" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.events">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/events/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+      </file>
+      <file name="publisher.ts" path="/Users/gabrielfranco/personal/nano-auth/src/events/publisher.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.jobs">
+      <metrics statements="9" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/jobs/index.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+      <file name="sessions.ts" path="/Users/gabrielfranco/personal/nano-auth/src/jobs/sessions.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.models">
+      <metrics statements="159" coveredstatements="159" conditionals="12" coveredconditionals="12" methods="8" coveredmethods="8"/>
+      <file name="api-key-token.ts" path="/Users/gabrielfranco/personal/nano-auth/src/models/api-key-token.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="16" count="46" type="stmt"/>
+        <line num="20" count="46" type="stmt"/>
+        <line num="24" count="46" type="stmt"/>
+        <line num="28" count="46" type="stmt"/>
+        <line num="32" count="46" type="stmt"/>
+      </file>
+      <file name="api-key.ts" path="/Users/gabrielfranco/personal/nano-auth/src/models/api-key.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+        <line num="8" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="17" count="46" type="stmt"/>
+        <line num="25" count="46" type="stmt"/>
+        <line num="28" count="46" type="stmt"/>
+        <line num="32" count="46" type="stmt"/>
+        <line num="36" count="46" type="stmt"/>
+        <line num="40" count="46" type="stmt"/>
+        <line num="44" count="46" type="stmt"/>
+        <line num="53" count="46" type="stmt"/>
+      </file>
+      <file name="business.ts" path="/Users/gabrielfranco/personal/nano-auth/src/models/business.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="4" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="17" count="46" type="stmt"/>
+        <line num="20" count="46" type="stmt"/>
+        <line num="24" count="46" type="stmt"/>
+        <line num="33" count="46" type="stmt"/>
+        <line num="37" count="46" type="stmt"/>
+        <line num="41" count="46" type="stmt"/>
+        <line num="45" count="46" type="stmt"/>
+        <line num="49" count="46" type="stmt"/>
+        <line num="53" count="46" type="stmt"/>
+        <line num="62" count="46" type="stmt"/>
+        <line num="69" count="46" type="stmt"/>
+      </file>
+      <file name="contexto.ts" path="/Users/gabrielfranco/personal/nano-auth/src/models/contexto.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+      </file>
+      <file name="grupo-permissao.ts" path="/Users/gabrielfranco/personal/nano-auth/src/models/grupo-permissao.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="15" count="46" type="stmt"/>
+      </file>
+      <file name="grupo-usuario.ts" path="/Users/gabrielfranco/personal/nano-auth/src/models/grupo-usuario.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+      </file>
+      <file name="grupo.ts" path="/Users/gabrielfranco/personal/nano-auth/src/models/grupo.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="4" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+        <line num="17" count="46" type="stmt"/>
+        <line num="21" count="46" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/models/index.ts">
+        <metrics statements="34" coveredstatements="34" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+        <line num="15" count="46" type="stmt"/>
+        <line num="16" count="46" type="stmt"/>
+        <line num="17" count="46" type="stmt"/>
+        <line num="18" count="46" type="stmt"/>
+        <line num="19" count="46" type="stmt"/>
+        <line num="20" count="46" type="stmt"/>
+        <line num="21" count="46" type="stmt"/>
+        <line num="22" count="46" type="stmt"/>
+        <line num="23" count="46" type="stmt"/>
+        <line num="36" count="46" type="stmt"/>
+        <line num="37" count="46" type="stmt"/>
+        <line num="56" count="46" type="stmt"/>
+        <line num="57" count="46" type="stmt"/>
+        <line num="58" count="46" type="stmt"/>
+        <line num="59" count="46" type="stmt"/>
+        <line num="60" count="46" type="stmt"/>
+        <line num="61" count="46" type="stmt"/>
+        <line num="62" count="46" type="stmt"/>
+        <line num="63" count="46" type="stmt"/>
+        <line num="64" count="46" type="stmt"/>
+        <line num="65" count="46" type="stmt"/>
+        <line num="67" count="46" type="stmt"/>
+      </file>
+      <file name="permissao.ts" path="/Users/gabrielfranco/personal/nano-auth/src/models/permissao.ts">
+        <metrics statements="25" coveredstatements="25" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="4" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="13" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+        <line num="15" count="46" type="stmt"/>
+        <line num="16" count="46" type="stmt"/>
+        <line num="17" count="46" type="stmt"/>
+        <line num="18" count="46" type="stmt"/>
+        <line num="19" count="46" type="stmt"/>
+        <line num="20" count="46" type="stmt"/>
+        <line num="21" count="46" type="stmt"/>
+        <line num="22" count="46" type="stmt"/>
+        <line num="23" count="46" type="stmt"/>
+        <line num="29" count="46" type="stmt"/>
+        <line num="31" count="46" type="stmt"/>
+        <line num="34" count="46" type="stmt"/>
+      </file>
+      <file name="user-session.ts" path="/Users/gabrielfranco/personal/nano-auth/src/models/user-session.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="6" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="15" count="46" type="stmt"/>
+        <line num="18" count="46" type="stmt"/>
+        <line num="22" count="46" type="stmt"/>
+        <line num="26" count="46" type="stmt"/>
+        <line num="30" count="46" type="stmt"/>
+        <line num="39" count="46" type="stmt"/>
+        <line num="43" count="46" type="stmt"/>
+        <line num="47" count="46" type="stmt"/>
+      </file>
+      <file name="usuario.ts" path="/Users/gabrielfranco/personal/nano-auth/src/models/usuario.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="6" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="15" count="46" type="stmt"/>
+        <line num="18" count="46" type="stmt"/>
+        <line num="21" count="46" type="stmt"/>
+        <line num="25" count="46" type="stmt"/>
+        <line num="29" count="46" type="stmt"/>
+        <line num="33" count="46" type="stmt"/>
+        <line num="37" count="46" type="stmt"/>
+        <line num="46" count="46" type="stmt"/>
+        <line num="49" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.business">
+      <metrics statements="126" coveredstatements="116" conditionals="38" coveredconditionals="31" methods="18" coveredmethods="17"/>
+      <file name="atualizar-business.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/business/atualizar-business.ts">
+        <metrics statements="31" coveredstatements="31" conditionals="16" coveredconditionals="16" methods="3" coveredmethods="3"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+        <line num="16" count="46" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="53" count="6" type="stmt"/>
+        <line num="60" count="6" type="stmt"/>
+        <line num="62" count="6" type="stmt"/>
+        <line num="63" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="67" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="71" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="72" count="3" type="stmt"/>
+        <line num="76" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="83" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="87" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="91" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="95" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="99" count="2" type="stmt"/>
+        <line num="101" count="2" type="stmt"/>
+        <line num="105" count="46" type="stmt"/>
+      </file>
+      <file name="criar-business.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/business/criar-business.ts">
+        <metrics statements="52" coveredstatements="43" conditionals="14" coveredconditionals="9" methods="9" coveredmethods="8"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="13" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+        <line num="25" count="46" type="stmt"/>
+        <line num="32" count="46" type="stmt"/>
+        <line num="34" count="46" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="88" count="3" type="stmt"/>
+        <line num="89" count="3" type="stmt"/>
+        <line num="90" count="3" type="stmt"/>
+        <line num="92" count="3" type="stmt"/>
+        <line num="93" count="2" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="120" count="46" type="stmt"/>
+        <line num="124" count="3" type="stmt"/>
+        <line num="125" count="3" type="stmt"/>
+        <line num="127" count="3" type="stmt"/>
+        <line num="131" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="132" count="1" type="stmt"/>
+        <line num="135" count="2" type="stmt"/>
+        <line num="147" count="46" type="stmt"/>
+        <line num="150" count="2" type="stmt"/>
+        <line num="158" count="2" type="stmt"/>
+        <line num="160" count="2" type="stmt"/>
+        <line num="164" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="165" count="1" type="stmt"/>
+        <line num="168" count="1" type="stmt"/>
+        <line num="169" count="1" type="stmt"/>
+        <line num="171" count="1" type="stmt"/>
+        <line num="184" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="185" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="186" count="0" type="stmt"/>
+        <line num="190" count="0" type="stmt"/>
+        <line num="191" count="0" type="stmt"/>
+        <line num="194" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="195" count="0" type="stmt"/>
+        <line num="197" count="0" type="stmt"/>
+        <line num="200" count="1" type="stmt"/>
+        <line num="203" count="46" type="stmt"/>
+      </file>
+      <file name="exibir-business.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/business/exibir-business.ts">
+        <metrics statements="14" coveredstatements="13" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="46" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/business/index.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+      </file>
+      <file name="listar-business.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/business/listar-business.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="46" type="stmt"/>
+      </file>
+      <file name="upgrade-business.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/business/upgrade-business.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="13" count="46" type="stmt"/>
+        <line num="15" count="46" type="stmt"/>
+        <line num="43" count="5" type="stmt"/>
+        <line num="44" count="5" type="stmt"/>
+        <line num="48" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="4" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="58" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.keys">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/keys/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+      </file>
+      <file name="listar-keys.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/keys/listar-keys.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.permissao">
+      <metrics statements="40" coveredstatements="37" conditionals="12" coveredconditionals="9" methods="6" coveredmethods="6"/>
+      <file name="alterar-permissao.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/permissao/alterar-permissao.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="18" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="9" type="stmt"/>
+        <line num="30" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="46" type="stmt"/>
+      </file>
+      <file name="deletar-permissao.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/permissao/deletar-permissao.ts">
+        <metrics statements="19" coveredstatements="16" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="46" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/permissao/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.precadastro">
+      <metrics statements="72" coveredstatements="72" conditionals="14" coveredconditionals="14" methods="8" coveredmethods="8"/>
+      <file name="criar-precadastro.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/precadastro/criar-precadastro.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="18" count="46" type="stmt"/>
+        <line num="20" count="46" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="39" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="56" count="46" type="stmt"/>
+      </file>
+      <file name="editar-precadastro.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/precadastro/editar-precadastro.ts">
+        <metrics statements="26" coveredstatements="26" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="13" count="46" type="stmt"/>
+        <line num="15" count="46" type="stmt"/>
+        <line num="17" count="46" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="40" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="49" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="58" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="62" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="72" count="46" type="stmt"/>
+      </file>
+      <file name="excluir-precadastro.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/precadastro/excluir-precadastro.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="20" count="46" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/precadastro/index.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+      </file>
+      <file name="listar-precadastro.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/precadastro/listar-precadastro.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="25" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.usuario">
+      <metrics statements="308" coveredstatements="302" conditionals="107" coveredconditionals="99" methods="33" coveredmethods="33"/>
+      <file name="alterar-contexto.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/alterar-contexto.ts">
+        <metrics statements="25" coveredstatements="24" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="13" count="46" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="33" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="42" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="51" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="60" count="46" type="stmt"/>
+      </file>
+      <file name="alterar-senha.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/alterar-senha.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="29" count="46" type="stmt"/>
+      </file>
+      <file name="ativar-usuario.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/ativar-usuario.ts">
+        <metrics statements="23" coveredstatements="23" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="26" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="37" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="55" count="46" type="stmt"/>
+      </file>
+      <file name="checar-email.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/checar-email.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="11" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="46" type="stmt"/>
+      </file>
+      <file name="criar-usuario.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/criar-usuario.ts">
+        <metrics statements="32" coveredstatements="31" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="17" count="46" type="stmt"/>
+        <line num="24" count="46" type="stmt"/>
+        <line num="26" count="46" type="stmt"/>
+        <line num="37" count="16" type="stmt"/>
+        <line num="53" count="10" type="stmt"/>
+        <line num="54" count="10" type="stmt"/>
+        <line num="57" count="10" type="stmt"/>
+        <line num="61" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="66" count="9" type="stmt"/>
+        <line num="69" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="70" count="9" type="stmt"/>
+        <line num="71" count="9" type="stmt"/>
+        <line num="73" count="9" type="stmt"/>
+        <line num="74" count="9" type="stmt"/>
+        <line num="75" count="9" type="stmt"/>
+        <line num="76" count="9" type="stmt"/>
+        <line num="77" count="9" type="stmt"/>
+        <line num="78" count="9" type="stmt"/>
+        <line num="79" count="9" type="stmt"/>
+        <line num="81" count="9" type="stmt"/>
+        <line num="83" count="9" type="stmt"/>
+        <line num="84" count="9" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="93" count="9" type="stmt"/>
+        <line num="97" count="46" type="stmt"/>
+      </file>
+      <file name="esqueci-senha.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/esqueci-senha.ts">
+        <metrics statements="21" coveredstatements="20" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="29" count="4" type="cond" truecount="5" falsecount="0"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="52" count="46" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/index.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="13" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+        <line num="15" count="46" type="stmt"/>
+        <line num="16" count="46" type="stmt"/>
+        <line num="17" count="46" type="stmt"/>
+        <line num="18" count="46" type="stmt"/>
+      </file>
+      <file name="listar-contexto.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/listar-contexto.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="46" type="stmt"/>
+      </file>
+      <file name="login.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/login.ts">
+        <metrics statements="38" coveredstatements="38" conditionals="16" coveredconditionals="15" methods="5" coveredmethods="5"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="16" count="46" type="stmt"/>
+        <line num="25" count="46" type="stmt"/>
+        <line num="26" count="46" type="stmt"/>
+        <line num="27" count="46" type="stmt"/>
+        <line num="30" count="46" type="stmt"/>
+        <line num="32" count="46" type="stmt"/>
+        <line num="39" count="9" type="stmt"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="42" count="9" type="stmt"/>
+        <line num="47" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="51" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="6" type="stmt"/>
+        <line num="56" count="6" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="59" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="67" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="71" count="6" type="stmt"/>
+        <line num="72" count="6" type="stmt"/>
+        <line num="74" count="6" type="stmt"/>
+        <line num="83" count="6" type="stmt"/>
+        <line num="95" count="6" type="stmt"/>
+        <line num="105" count="6" type="stmt"/>
+        <line num="111" count="6" type="stmt"/>
+        <line num="115" count="46" type="stmt"/>
+        <line num="116" count="6" type="stmt"/>
+        <line num="117" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="129" count="46" type="stmt"/>
+        <line num="130" count="6" type="stmt"/>
+        <line num="134" count="46" type="stmt"/>
+      </file>
+      <file name="logout.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/logout.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="9" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="13" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="37" count="46" type="stmt"/>
+      </file>
+      <file name="panic.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/panic.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="34" count="46" type="stmt"/>
+      </file>
+      <file name="permitir-contexto.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/permitir-contexto.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="18" count="46" type="stmt"/>
+        <line num="20" count="46" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="39" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="50" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="60" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="74" count="46" type="stmt"/>
+      </file>
+      <file name="refresh-token.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/refresh-token.ts">
+        <metrics statements="40" coveredstatements="37" conditionals="33" coveredconditionals="29" methods="3" coveredmethods="3"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="15" count="46" type="stmt"/>
+        <line num="24" count="46" type="stmt"/>
+        <line num="26" count="46" type="stmt"/>
+        <line num="27" count="11" type="stmt"/>
+        <line num="29" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="10" type="stmt"/>
+        <line num="37" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="41" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="7" type="stmt"/>
+        <line num="53" count="7" type="cond" truecount="3" falsecount="1"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="7" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="81" count="46" type="stmt"/>
+        <line num="82" count="7" type="stmt"/>
+        <line num="87" count="7" type="cond" truecount="11" falsecount="2"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="91" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="95" count="5" type="stmt"/>
+        <line num="96" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="100" count="4" type="stmt"/>
+        <line num="104" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="108" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="109" count="1" type="stmt"/>
+        <line num="112" count="2" type="stmt"/>
+        <line num="115" count="46" type="stmt"/>
+      </file>
+      <file name="resetar-senha.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/resetar-senha.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="33" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="46" type="stmt"/>
+      </file>
+      <file name="usuario-atual.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/usuario-atual.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.usuario.business">
+      <metrics statements="133" coveredstatements="118" conditionals="55" coveredconditionals="36" methods="14" coveredmethods="12"/>
+      <file name="atrelar-usuario.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/business/atrelar-usuario.ts">
+        <metrics statements="20" coveredstatements="7" conditionals="13" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="16" count="46" type="stmt"/>
+        <line num="18" count="46" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="65" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="76" count="46" type="stmt"/>
+      </file>
+      <file name="atualizar-perfil-business.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/business/atualizar-perfil-business.ts">
+        <metrics statements="31" coveredstatements="30" conditionals="16" coveredconditionals="15" methods="3" coveredmethods="3"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+        <line num="16" count="46" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="65" count="4" type="stmt"/>
+        <line num="67" count="4" type="stmt"/>
+        <line num="71" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="75" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="79" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="84" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="91" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="95" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="99" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="103" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="107" count="2" type="stmt"/>
+        <line num="109" count="2" type="stmt"/>
+        <line num="113" count="46" type="stmt"/>
+      </file>
+      <file name="atualizar-perfil-default-business.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/business/atualizar-perfil-default-business.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="35" count="46" type="stmt"/>
+      </file>
+      <file name="criar-perfil-business.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/business/criar-perfil-business.ts">
+        <metrics statements="35" coveredstatements="34" conditionals="12" coveredconditionals="9" methods="3" coveredmethods="3"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="18" count="46" type="stmt"/>
+        <line num="20" count="46" type="stmt"/>
+        <line num="22" count="46" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
+        <line num="56" count="6" type="stmt"/>
+        <line num="58" count="6" type="stmt"/>
+        <line num="62" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="4" type="stmt"/>
+        <line num="67" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="85" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="99" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="103" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="107" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="111" count="1" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="117" count="46" type="stmt"/>
+      </file>
+      <file name="exibir-perfil-business.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/business/exibir-perfil-business.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="24" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="46" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/business/index.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+      </file>
+      <file name="listar-perfil-business.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/business/listar-perfil-business.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.usuario.servico.key">
+      <metrics statements="34" coveredstatements="34" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="criar-keys.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/servico/key/criar-keys.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="38" count="46" type="stmt"/>
+      </file>
+      <file name="excluir-keys.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/servico/key/excluir-keys.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="24" count="46" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/servico/key/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+      </file>
+      <file name="listar-keys.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/servico/key/listar-keys.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.usuario.servico.sessao">
+      <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="excluir-sessoes.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/servico/sessao/excluir-sessoes.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="24" count="46" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/servico/sessao/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+      </file>
+      <file name="listar-sessoes.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/servico/sessao/listar-sessoes.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="36" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.usuario.servico.token">
+      <metrics statements="43" coveredstatements="40" conditionals="16" coveredconditionals="12" methods="4" coveredmethods="4"/>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/servico/token/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+      </file>
+      <file name="listar-tokens.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/servico/token/listar-tokens.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="37" count="46" type="stmt"/>
+      </file>
+      <file name="request-token.ts" path="/Users/gabrielfranco/personal/nano-auth/src/routes/usuario/servico/token/request-token.ts">
+        <metrics statements="30" coveredstatements="27" conditionals="12" coveredconditionals="9" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="20" count="46" type="stmt"/>
+        <line num="26" count="46" type="stmt"/>
+        <line num="28" count="46" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="47" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="51" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="59" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="68" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="108" count="46" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.test.data">
+      <metrics statements="121" coveredstatements="121" conditionals="0" coveredconditionals="0" methods="25" coveredmethods="25"/>
+      <file name="apiKeyData.ts" path="/Users/gabrielfranco/personal/nano-auth/src/test/data/apiKeyData.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="35" type="stmt"/>
+        <line num="3" count="35" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="22" count="9" type="stmt"/>
+        <line num="31" count="9" type="stmt"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="49" count="9" type="stmt"/>
+      </file>
+      <file name="apiKeyTokenData.ts" path="/Users/gabrielfranco/personal/nano-auth/src/test/data/apiKeyTokenData.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="35" type="stmt"/>
+        <line num="2" count="35" type="stmt"/>
+        <line num="4" count="35" type="stmt"/>
+        <line num="5" count="35" type="stmt"/>
+        <line num="7" count="35" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+      <file name="businessData.ts" path="/Users/gabrielfranco/personal/nano-auth/src/test/data/businessData.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="35" type="stmt"/>
+        <line num="3" count="35" type="stmt"/>
+        <line num="4" count="26" type="stmt"/>
+        <line num="17" count="26" type="stmt"/>
+        <line num="30" count="26" type="stmt"/>
+        <line num="43" count="26" type="stmt"/>
+      </file>
+      <file name="contextoData.ts" path="/Users/gabrielfranco/personal/nano-auth/src/test/data/contextoData.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="35" type="stmt"/>
+        <line num="3" count="35" type="stmt"/>
+        <line num="4" count="30" type="stmt"/>
+        <line num="9" count="30" type="stmt"/>
+        <line num="14" count="30" type="stmt"/>
+        <line num="19" count="30" type="stmt"/>
+        <line num="24" count="30" type="stmt"/>
+      </file>
+      <file name="grupoData.ts" path="/Users/gabrielfranco/personal/nano-auth/src/test/data/grupoData.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="35" type="stmt"/>
+        <line num="2" count="35" type="stmt"/>
+        <line num="4" count="89" type="stmt"/>
+        <line num="5" count="89" type="stmt"/>
+        <line num="9" count="89" type="stmt"/>
+        <line num="13" count="89" type="stmt"/>
+      </file>
+      <file name="grupoPermissaoData.ts" path="/Users/gabrielfranco/personal/nano-auth/src/test/data/grupoPermissaoData.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="35" type="stmt"/>
+        <line num="7" count="89" type="stmt"/>
+        <line num="8" count="89" type="stmt"/>
+        <line num="12" count="89" type="stmt"/>
+        <line num="16" count="89" type="stmt"/>
+        <line num="20" count="89" type="stmt"/>
+        <line num="24" count="89" type="stmt"/>
+        <line num="28" count="89" type="stmt"/>
+        <line num="32" count="89" type="stmt"/>
+        <line num="36" count="89" type="stmt"/>
+        <line num="40" count="89" type="stmt"/>
+        <line num="44" count="89" type="stmt"/>
+        <line num="48" count="89" type="stmt"/>
+        <line num="52" count="89" type="stmt"/>
+        <line num="56" count="89" type="stmt"/>
+        <line num="60" count="89" type="stmt"/>
+        <line num="64" count="89" type="stmt"/>
+        <line num="68" count="89" type="stmt"/>
+        <line num="72" count="89" type="stmt"/>
+        <line num="76" count="89" type="stmt"/>
+      </file>
+      <file name="grupoUsuarioData.ts" path="/Users/gabrielfranco/personal/nano-auth/src/test/data/grupoUsuarioData.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="35" type="stmt"/>
+        <line num="3" count="89" type="stmt"/>
+        <line num="4" count="89" type="stmt"/>
+        <line num="8" count="89" type="stmt"/>
+        <line num="12" count="89" type="stmt"/>
+        <line num="16" count="89" type="stmt"/>
+        <line num="20" count="89" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/test/data/index.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="35" type="stmt"/>
+        <line num="3" count="35" type="stmt"/>
+        <line num="4" count="35" type="stmt"/>
+        <line num="5" count="35" type="stmt"/>
+        <line num="6" count="35" type="stmt"/>
+        <line num="7" count="35" type="stmt"/>
+        <line num="8" count="35" type="stmt"/>
+        <line num="9" count="35" type="stmt"/>
+        <line num="10" count="35" type="stmt"/>
+        <line num="11" count="35" type="stmt"/>
+        <line num="12" count="35" type="stmt"/>
+        <line num="15" count="35" type="stmt"/>
+        <line num="28" count="35" type="stmt"/>
+      </file>
+      <file name="permissaoData.ts" path="/Users/gabrielfranco/personal/nano-auth/src/test/data/permissaoData.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="35" type="stmt"/>
+        <line num="3" count="89" type="stmt"/>
+        <line num="4" count="89" type="stmt"/>
+        <line num="9" count="89" type="stmt"/>
+        <line num="14" count="89" type="stmt"/>
+        <line num="19" count="89" type="stmt"/>
+        <line num="24" count="89" type="stmt"/>
+        <line num="29" count="89" type="stmt"/>
+        <line num="34" count="89" type="stmt"/>
+        <line num="39" count="89" type="stmt"/>
+        <line num="44" count="89" type="stmt"/>
+        <line num="49" count="89" type="stmt"/>
+        <line num="54" count="89" type="stmt"/>
+        <line num="59" count="89" type="stmt"/>
+        <line num="64" count="89" type="stmt"/>
+        <line num="69" count="89" type="stmt"/>
+        <line num="74" count="89" type="stmt"/>
+        <line num="79" count="89" type="stmt"/>
+        <line num="84" count="89" type="stmt"/>
+        <line num="89" count="89" type="stmt"/>
+      </file>
+      <file name="userSessionData.ts" path="/Users/gabrielfranco/personal/nano-auth/src/test/data/userSessionData.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="35" type="stmt"/>
+        <line num="2" count="35" type="stmt"/>
+        <line num="4" count="130" type="stmt"/>
+        <line num="5" count="130" type="stmt"/>
+        <line num="6" count="35" type="stmt"/>
+        <line num="8" count="35" type="stmt"/>
+        <line num="9" count="26" type="stmt"/>
+        <line num="19" count="26" type="stmt"/>
+        <line num="29" count="26" type="stmt"/>
+        <line num="39" count="26" type="stmt"/>
+        <line num="49" count="26" type="stmt"/>
+        <line num="59" count="26" type="stmt"/>
+      </file>
+      <file name="usuarioData.ts" path="/Users/gabrielfranco/personal/nano-auth/src/test/data/usuarioData.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="35" type="stmt"/>
+        <line num="2" count="35" type="stmt"/>
+        <line num="3" count="35" type="stmt"/>
+        <line num="5" count="89" type="stmt"/>
+        <line num="6" count="89" type="stmt"/>
+        <line num="9" count="89" type="stmt"/>
+        <line num="19" count="89" type="stmt"/>
+        <line num="29" count="89" type="stmt"/>
+        <line num="39" count="89" type="stmt"/>
+        <line num="50" count="89" type="stmt"/>
+        <line num="60" count="89" type="stmt"/>
+        <line num="72" count="89" type="stmt"/>
+        <line num="84" count="89" type="stmt"/>
+        <line num="96" count="89" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="135" coveredstatements="135" conditionals="32" coveredconditionals="29" methods="24" coveredmethods="24"/>
+      <file name="constants.ts" path="/Users/gabrielfranco/personal/nano-auth/src/utils/constants.ts">
+        <metrics statements="26" coveredstatements="26" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+        <line num="7" count="46" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="13" count="46" type="stmt"/>
+        <line num="25" count="46" type="stmt"/>
+        <line num="27" count="46" type="stmt"/>
+        <line num="29" count="46" type="stmt"/>
+        <line num="50" count="46" type="stmt"/>
+        <line num="51" count="46" type="stmt"/>
+        <line num="52" count="46" type="stmt"/>
+        <line num="56" count="46" type="stmt"/>
+        <line num="57" count="46" type="stmt"/>
+        <line num="60" count="46" type="stmt"/>
+        <line num="61" count="46" type="stmt"/>
+        <line num="62" count="46" type="stmt"/>
+        <line num="63" count="46" type="stmt"/>
+        <line num="64" count="46" type="stmt"/>
+        <line num="67" count="46" type="stmt"/>
+        <line num="68" count="46" type="stmt"/>
+        <line num="71" count="46" type="stmt"/>
+        <line num="72" count="46" type="stmt"/>
+        <line num="73" count="46" type="stmt"/>
+      </file>
+      <file name="fingerprint.ts" path="/Users/gabrielfranco/personal/nano-auth/src/utils/fingerprint.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="13" count="19" type="stmt"/>
+      </file>
+      <file name="get-keys.ts" path="/Users/gabrielfranco/personal/nano-auth/src/utils/get-keys.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="22" count="51" type="stmt"/>
+        <line num="23" count="51" type="stmt"/>
+        <line num="24" count="51" type="stmt"/>
+        <line num="26" count="51" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="50" type="stmt"/>
+        <line num="31" count="97" type="stmt"/>
+        <line num="32" count="97" type="stmt"/>
+        <line num="34" count="97" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="48" type="stmt"/>
+        <line num="37" count="48" type="stmt"/>
+        <line num="40" count="48" type="stmt"/>
+        <line num="42" count="49" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="48" type="stmt"/>
+        <line num="48" count="48" type="stmt"/>
+        <line num="51" count="96" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="2" type="stmt"/>
+      </file>
+      <file name="get-permissions.ts" path="/Users/gabrielfranco/personal/nano-auth/src/utils/get-permissions.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="16" count="34" type="stmt"/>
+        <line num="24" count="46" type="stmt"/>
+        <line num="25" count="14" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="36" count="46" type="stmt"/>
+        <line num="37" count="11" type="stmt"/>
+      </file>
+      <file name="get-template-email.ts" path="/Users/gabrielfranco/personal/nano-auth/src/utils/get-template-email.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+        <line num="17" count="14" type="stmt"/>
+        <line num="18" count="14" type="stmt"/>
+        <line num="23" count="14" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/gabrielfranco/personal/nano-auth/src/utils/index.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="5" count="46" type="stmt"/>
+        <line num="6" count="46" type="stmt"/>
+        <line num="7" count="46" type="stmt"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+      </file>
+      <file name="password.ts" path="/Users/gabrielfranco/personal/nano-auth/src/utils/password.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="13" count="46" type="stmt"/>
+        <line num="14" count="125" type="stmt"/>
+        <line num="24" count="46" type="stmt"/>
+        <line num="25" count="12" type="stmt"/>
+      </file>
+      <file name="random-key.ts" path="/Users/gabrielfranco/personal/nano-auth/src/utils/random-key.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="11" count="20" type="stmt"/>
+        <line num="12" count="20" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="14" count="20" type="stmt"/>
+        <line num="18" count="20" type="stmt"/>
+      </file>
+      <file name="recreate-token.ts" path="/Users/gabrielfranco/personal/nano-auth/src/utils/recreate-token.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="13" count="46" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+      </file>
+      <file name="token.ts" path="/Users/gabrielfranco/personal/nano-auth/src/utils/token.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="2" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="107" type="stmt"/>
+        <line num="11" count="107" type="stmt"/>
+        <line num="12" count="107" type="stmt"/>
+        <line num="13" count="107" type="stmt"/>
+        <line num="22" count="46" type="stmt"/>
+        <line num="23" count="14" type="stmt"/>
+        <line num="24" count="14" type="stmt"/>
+        <line num="25" count="14" type="stmt"/>
+        <line num="26" count="14" type="stmt"/>
+      </file>
+      <file name="upgrade-to-business.ts" path="/Users/gabrielfranco/personal/nano-auth/src/utils/upgrade-to-business.ts">
+        <metrics statements="23" coveredstatements="23" conditionals="10" coveredconditionals="9" methods="2" coveredmethods="2"/>
+        <line num="1" count="46" type="stmt"/>
+        <line num="3" count="46" type="stmt"/>
+        <line num="4" count="46" type="stmt"/>
+        <line num="11" count="46" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="24" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="33" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="38" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="43" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="47" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

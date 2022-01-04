@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@jobs/*": [
+        "jobs/*"
+      ],
+      "@config/*": [
+        "config/*"
+      ],
+      "@shared/*": [
+        "shared/*"
+      ],
+      "@errors/*": [
+        "errors/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@entities/*": [
+        "entities/*"
+      ],
+      "@repositories/*": [
+        "repositories/*"
+      ],
+      "@rootTypes/*": [
+        "rootTypes/*"
+      ],
+      "@useCases/*": [
+        "useCases/*"
+      ],
+      "@routes/*": [
+        "routes/*"
+      ],
+      "@dtos/*": [
+        "dtos/*"
+      ],
+      "@events/*": [
+        "events/*"
+      ],
+      "@test/*": [
+        "test/*"
+      ]
+    },
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  }
+}
