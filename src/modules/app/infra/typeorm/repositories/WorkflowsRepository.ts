@@ -12,9 +12,10 @@ export class WorkflowsRepository implements IWorkflowsRepository {
     this.repository = getRepository(Workflow);
   }
 
-  async create({ code }: ICreateWorkflowDTO): Promise<IWorkflow> {
+  async create({ code, messages }: ICreateWorkflowDTO): Promise<IWorkflow> {
     const workflow = this.repository.create({
       code,
+      messages,
     });
 
     await this.repository.save(workflow);

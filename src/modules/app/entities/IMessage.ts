@@ -7,9 +7,11 @@ export enum MessageTypes {
 
 export interface IMessage {
   id: string;
-  messageType: string;
   text: string;
-  workflowId: string;
+  role?: string;
+  messageType: string;
 
+  workflowId: string;
   workflow: IWorkflow;
+  possibleAnswers?: IAnswer[];
 }

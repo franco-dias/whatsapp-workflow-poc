@@ -1,38 +1,36 @@
 {
-  "id": "",
-  "code": "workflow-test-1",
-  "messages": [
-    {
-      "id": "",
-      "text": "1. Atendimento\n2. Sair",
-      "possibleAnswers": [
-        {
-          "id": "",
-          "text": "1",
-          "type": "TRIGGERS_MESSAGE",
-          "nextMessage": {
-            "id": "",
-            "text": "1. Documento\n2. Sair",
-            "possibleAnswers": [
-              {
-                "id": "",
-                "text": "1",
-                "type": "DELIVERS_DOCUMENT"
-              },
-              {
-                "id": "",
-                "text": "2",
-                "type": "ENDS_CONVERSATION"
-              }
-            ]
+  "workflow": {
+    "code": "workflow-test-1",
+    "messages": [
+      {
+        "role": "ENTRY_POINT",
+        "text": "1. Atendimento\n2. Sair",
+        "messageType": "text",
+        "possibleAnswers": [
+          {
+            "text": "1",
+            "type": "TRIGGERS_MESSAGE",
+            "nextMessage": {
+              "text": "1. Documento\n2. Sair",
+              "messageType": "text",
+              "possibleAnswers": [
+                {
+                  "text": "1",
+                  "type": "DELIVERS_DOCUMENT"
+                },
+                {
+                  "text": "2",
+                  "type": "ENDS_CONVERSATION"
+                }
+              ]
+            }
+          },
+          {
+            "text": "2",
+            "type": "ENDS_CONVERSATION"
           }
-        },
-        {
-          "id": "",
-          "text": "2",
-          "type": "ENDS_CONVERSATION"
-        }
-      ]
-    }
-  ]
+        ]
+      }
+    ]
+  }
 }

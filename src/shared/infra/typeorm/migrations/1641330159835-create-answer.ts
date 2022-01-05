@@ -9,7 +9,7 @@ export class createAnswer1641330159835 implements MigrationInterface {
           { name: 'id', type: 'uuid', isPrimary: true },
           { name: 'text', type: 'varchar', isNullable: false },
           { name: 'answer_type', type: 'varchar', isNullable: false },
-          { name: 'prev_message_id', type: 'uuid', isNullable: false },
+          { name: 'prev_message_id', type: 'uuid', isNullable: true },
           { name: 'next_message_id', type: 'uuid', isNullable: true },
         ],
         foreignKeys: [
@@ -31,6 +31,6 @@ export class createAnswer1641330159835 implements MigrationInterface {
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
-    await queryRunner.dropTable('answer');
+    await queryRunner.dropTable('workflow_answer');
   }
 }

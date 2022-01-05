@@ -32,7 +32,7 @@ export class App {
   }
 
   routes() {
-    this.server.use('/auth/v1', routes);
+    this.server.use('/hermes/v1', routes);
     this.server.all('*', async (req) => {
       console.log(`[APP] Request Not Found: ${req.method} - ${req.url}`);
       throw new AppError('Not found', 404);

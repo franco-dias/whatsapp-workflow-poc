@@ -7,6 +7,7 @@ import {
   OneToMany,
   PrimaryColumn,
 } from 'typeorm';
+import { v4 as uuid } from 'uuid';
 
 import { Answer } from './Answer';
 import { Workflow } from './Workflow';
@@ -20,6 +21,9 @@ export class Message implements IMessage {
   messageType: string;
 
   @Column()
+  role: string;
+
+  @Column()
   text: string;
 
   @Column({ name: 'workflow_id' })
@@ -31,4 +35,10 @@ export class Message implements IMessage {
 
   @OneToMany(() => Answer, (answer) => answer.prevMessage, { cascade: true })
   possibleAnswers: Answer[];
+
+  constructor() {
+    if (!this.id) {
+      this.id = uuid();
+    }
+  }
 }

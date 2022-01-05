@@ -12,7 +12,7 @@ module.exports = {
     path.resolve('src', 'shared', 'infra', 'typeorm', 'migrations', '*.ts')
   ],
   entities: [
-    path.resolve('src', 'shared', 'infra', 'typeorm', 'entities', '*.ts')
+    path.resolve('src', 'modules', '**', 'infra', 'typeorm', 'entities', '*.ts')
   ],
   cli: {
     migrationsDir: path.resolve('src', 'shared', 'infra', 'typeorm', 'migrations'),

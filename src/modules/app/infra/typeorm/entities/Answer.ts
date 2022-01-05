@@ -7,6 +7,7 @@ import {
   OneToOne,
   PrimaryColumn,
 } from 'typeorm';
+import { v4 as uuid } from 'uuid';
 
 import { Message } from './Message';
 
@@ -34,4 +35,10 @@ export class Answer implements IAnswer {
   @JoinColumn({ name: 'next_message_id' })
   @OneToOne(() => Message, { cascade: true })
   nextMessage?: Message;
+
+  constructor() {
+    if (!this.id) {
+      this.id = uuid();
+    }
+  }
 }
