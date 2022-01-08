@@ -1,7 +1,7 @@
-import { ICreateWorkflowDTO } from 'modules/app/dtos/ICreateWorkflowDTO';
-import { IWorkflow } from 'modules/app/entities/IWorkflow';
-import { IWorkflowsRepository } from 'modules/app/repositories/IWorkflowsRepository';
-import setWorkflowId from 'modules/app/utils/setWorkflowId';
+import { ICreateWorkflowDTO } from 'modules/workflow/dtos/ICreateWorkflowDTO';
+import { IWorkflow } from 'modules/workflow/entities/IWorkflow';
+import { IWorkflowsRepository } from 'modules/workflow/repositories/IWorkflowsRepository';
+import setWorkflowId from 'modules/workflow/utils/setWorkflowId';
 import { inject, injectable } from 'tsyringe';
 
 @injectable()

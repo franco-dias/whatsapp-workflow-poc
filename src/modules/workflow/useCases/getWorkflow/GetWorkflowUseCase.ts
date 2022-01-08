@@ -1,5 +1,5 @@
-import { IWorkflow } from 'modules/app/entities/IWorkflow';
-import { IWorkflowsRepository } from 'modules/app/repositories/IWorkflowsRepository';
+import { IWorkflow } from 'modules/workflow/entities/IWorkflow';
+import { IWorkflowsRepository } from 'modules/workflow/repositories/IWorkflowsRepository';
 import { inject, injectable } from 'tsyringe';
 
 @injectable()

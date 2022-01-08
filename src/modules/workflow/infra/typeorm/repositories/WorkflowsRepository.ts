@@ -1,7 +1,7 @@
-import { ICreateWorkflowDTO } from 'modules/app/dtos/ICreateWorkflowDTO';
-import { IMessage } from 'modules/app/entities/IMessage';
-import { IWorkflow } from 'modules/app/entities/IWorkflow';
-import { IWorkflowsRepository } from 'modules/app/repositories/IWorkflowsRepository';
+import { ICreateWorkflowDTO } from 'modules/workflow/dtos/ICreateWorkflowDTO';
+import { IMessage } from 'modules/workflow/entities/IMessage';
+import { IWorkflow } from 'modules/workflow/entities/IWorkflow';
+import { IWorkflowsRepository } from 'modules/workflow/repositories/IWorkflowsRepository';
 import { getRepository, Repository } from 'typeorm';
 
 import { Workflow } from '../entities/Workflow';

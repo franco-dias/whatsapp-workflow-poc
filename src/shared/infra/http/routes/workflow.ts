@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { CreateWorkflowController } from 'modules/app/useCases/createWorkflow/CreateWorkflowController';
-import { GetWorkflowController } from 'modules/app/useCases/getWorkflow/GetWorkflowController';
+import { CreateWorkflowController } from 'modules/workflow/useCases/createWorkflow/CreateWorkflowController';
+import { GetWorkflowController } from 'modules/workflow/useCases/getWorkflow/GetWorkflowController';
 
 const router = Router();
 

@@ -1,4 +1,4 @@
-import { IMessagesRepository } from 'modules/app/repositories/IMessagesRepository';
+import { IMessagesRepository } from 'modules/workflow/repositories/IMessagesRepository';
 import { getRepository, Repository } from 'typeorm';
 
 import { Message } from '../entities/Message';

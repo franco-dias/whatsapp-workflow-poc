@@ -1,4 +1,4 @@
-import { IAnswer } from 'modules/app/entities/IAnswer';
+import { IAnswer } from 'modules/workflow/entities/IAnswer';
 import {
   Column,
   Entity,
