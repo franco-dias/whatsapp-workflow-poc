@@ -12,7 +12,10 @@ export class Workflow implements IWorkflow {
   @Column()
   code: string;
 
-  @OneToMany(() => Message, (message) => message.workflow, { cascade: true })
+  @OneToMany(() => Message, (message) => message.workflow, {
+    cascade: ['insert', 'update'],
+    eager: true,
+  })
   messages?: Message[];
 
   constructor() {

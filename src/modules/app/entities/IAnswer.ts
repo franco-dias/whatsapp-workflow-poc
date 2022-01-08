@@ -12,6 +12,7 @@ export interface IAnswer {
   type: string;
   prevMessageId: string;
   nextMessageId?: string;
+
   prevMessage: IMessage;
   nextMessage?: IMessage;
 }

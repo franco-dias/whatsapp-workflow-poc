@@ -17,6 +17,8 @@ export class createMessage1641326601931 implements MigrationInterface {
             referencedTableName: 'workflow',
             referencedColumnNames: ['id'],
             columnNames: ['workflow_id'],
+            onDelete: 'CASCADE',
+            onUpdate: 'CASCADE',
           },
         ],
       })

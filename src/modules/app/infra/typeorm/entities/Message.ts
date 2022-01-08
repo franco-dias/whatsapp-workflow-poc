@@ -33,8 +33,11 @@ export class Message implements IMessage {
   @JoinColumn({ name: 'workflow_id' })
   workflow: Workflow;
 
-  @OneToMany(() => Answer, (answer) => answer.prevMessage, { cascade: true })
-  possibleAnswers: Answer[];
+  @OneToMany(() => Answer, (answer) => answer.prevMessage, {
+    cascade: true,
+    eager: true,
+  })
+  possibleAnswers?: Answer[];
 
   constructor() {
     if (!this.id) {
