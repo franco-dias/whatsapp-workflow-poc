@@ -8,3 +8,5 @@ container.registerSingleton<IWorkflowsRepository>(
   'WorkflowsRepository',
   WorkflowsRepository
 );
+
+console.log('containers registered');

@@ -9,6 +9,7 @@ class BullQueueProvider implements IQueueProvider {
   private messagesQueue: Queue.Queue<IMessageData>;
 
   constructor() {
+    console.log('[BullJS] Connecting... (assume good connection if no error)');
     this.messagesQueue = new Queue('send_pending', {
       redis,
       limiter,
