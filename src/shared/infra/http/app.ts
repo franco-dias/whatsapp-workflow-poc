@@ -1,15 +1,24 @@
 import cors from 'cors';
-import express, { Express } from 'express';
 import 'express-async-errors';
+import express, { Express } from 'express';
+import { inject, injectable } from 'tsyringe';
 
+import { MessageWorker } from '@modules/chatBot/workers/MessageWorker';
+import { IQueueProvider } from '@shared/container/providers/QueueProvider/IQueueProvider';
 import { AppError } from '@shared/errors/AppError';
 
 import { database } from '../typeorm';
 import errorHandler from './middlewares/errorHandler';
 import routes from './routes/v2';
 
+@injectable()
 export class App {
   server: Express;
+
+  constructor(
+    @inject('QueueProvider')
+    private queueProvider: IQueueProvider
+  ) {}
 
   setup() {
     this.server = express();
@@ -23,6 +32,7 @@ export class App {
     } catch (err) {
       this.exit('[APP] Error setting up!', err);
     }
+    this.queueProvider.process(MessageWorker.processMessageQueue);
   }
 
   middlewares() {
@@ -45,7 +55,3 @@ export class App {
     process.exit(1);
   }
 }
-
-const app = new App();
-
-export { app };
