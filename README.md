@@ -1,1 +1,2 @@
 [Fluxograma do Chatbot](https://lucid.app/lucidchart/084d44a1-3cbc-4457-815f-0e04c9746462/edit?invitationId=inv_49c424f1-b198-462f-8849-585ddb0e1c9a)
+[Estrutura do banco de dados](https://dbdiagram.io/d/611333452ecb310fc3c61de4)
