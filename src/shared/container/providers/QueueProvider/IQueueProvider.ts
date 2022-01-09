@@ -1,3 +1,5 @@
+import { Router } from 'express';
+
 export enum Queues {
   SEND_PENDING = 'SEND_PENDING',
 }
@@ -32,6 +34,7 @@ export interface IMessageData {
 export type IGenericQueueCallback = (job: any, done: () => void) => void;
 
 export interface IQueueProvider {
+  routes?: Router;
   addMessage(data: IMessageData): Promise<void>;
   process(cb: IGenericQueueCallback): Promise<void>;
 }

@@ -1,23 +1,30 @@
 import cors from 'cors';
 import 'express-async-errors';
 import express, { Express } from 'express';
-import { container } from 'tsyringe';
+import { container, inject, injectable } from 'tsyringe';
 
 import { MessageWorker } from '@modules/chatBot/workers/MessageWorker';
+import { IQueueProvider } from '@shared/container/providers/QueueProvider/IQueueProvider';
 import { AppError } from '@shared/errors/AppError';
 
 import { database } from '../typeorm';
 import errorHandler from './middlewares/errorHandler';
 import routes from './routes/v2';
 
+@injectable()
 export class App {
   server: Express;
+
+  constructor(
+    @inject('QueueProvider')
+    private queueProvider: IQueueProvider
+  ) {}
 
   setup() {
     this.server = express();
     this.middlewares();
-    this.routes();
     this.jobs();
+    this.routes();
   }
 
   async connections() {
@@ -50,5 +57,11 @@ export class App {
 
   jobs() {
     container.resolve(MessageWorker);
+    if (this.queueProvider.routes) {
+      this.server.use('/admin/queues', this.queueProvider.routes);
+      console.log(
+        '[BullJS] Queue admin panel: http://localhost:3333/admin/queues'
+      );
+    }
   }
 }

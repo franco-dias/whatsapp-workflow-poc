@@ -2,10 +2,12 @@ import 'reflect-metadata';
 import 'dotenv/config';
 import '@shared/container';
 
+import { container } from 'tsyringe';
+
 import { App } from './app';
 
 const run = async () => {
-  const app = new App();
+  const app = container.resolve(App);
   await app.connections();
   app.setup();
   app.server.listen(3333, () =>
