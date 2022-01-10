@@ -5,7 +5,6 @@ import { createBullBoard } from '@bull-board/api';
 import { BullAdapter } from '@bull-board/api/bullAdapter';
 import { ExpressAdapter } from '@bull-board/express';
 import redis from '@config/redis';
-import limiter from '@config/whatsappLimiter';
 
 import { IMessageData, IQueueProvider } from '../IQueueProvider';
 
@@ -18,7 +17,6 @@ class BullQueueProvider implements IQueueProvider {
     console.log('[BullJS] Connecting... (assume good connection if no error)');
     this.messagesQueue = new Queue('send_pending', {
       redis,
-      limiter,
     });
     this.serverAdapter = new ExpressAdapter();
 

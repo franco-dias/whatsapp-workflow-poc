@@ -1,9 +1,8 @@
 import cors from 'cors';
 import 'express-async-errors';
 import express, { Express } from 'express';
-import { container, inject, injectable } from 'tsyringe';
+import { inject, injectable } from 'tsyringe';
 
-import { MessageWorker } from '@modules/chatBot/workers/MessageWorker';
 import { IQueueProvider } from '@shared/container/providers/QueueProvider/IQueueProvider';
 import { AppError } from '@shared/errors/AppError';
 
@@ -56,7 +55,6 @@ export class App {
   }
 
   jobs() {
-    container.resolve(MessageWorker);
     if (this.queueProvider.routes) {
       this.server.use('/admin/queues', this.queueProvider.routes);
       console.log(

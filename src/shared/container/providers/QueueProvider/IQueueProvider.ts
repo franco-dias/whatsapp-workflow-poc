@@ -31,10 +31,7 @@ export interface IMessageData {
   messages: IReceivedMessage[];
 }
 
-export type IGenericQueueCallback = (job: any, done: () => void) => void;
-
 export interface IQueueProvider {
   routes?: Router;
   addMessage(data: IMessageData): Promise<void>;
-  process(cb: IGenericQueueCallback): Promise<void>;
 }
